@@ -1,0 +1,33 @@
+.book-form {
+    background-color: white;
+    color: black;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    margin: 20px auto;
+  }
+  
+  .book-form .form-control {
+    background: rgba(255, 255, 255, 0.1);
+    color: black;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .book-form .form-control::placeholder {
+    color: rgba(0, 0, 0, 0.7);
+  }
+  
+  .book-form .btn-primary {
+    background-color: #007bff;
+    border: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  /* index.css */
+.book-form button {
+    font-size: 1.5rem;
+  }
+  

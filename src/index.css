@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Algerian&display=swap');
+
+body {
+  background-color: #ffffff;
+  font-family: 'Algerian', sans-serif;
+}
+
+.App {
+  text-align: center;
+  padding: 20px;
+}
+
+.App-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+.book-container {
+  max-width: 600px;
+  margin: 0 auto;
+  background-color: white;
+  color: black;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}

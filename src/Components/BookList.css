@@ -1,0 +1,54 @@
+.row {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .col-lg-4,
+  .col-md-6 {
+    flex: 1 0 30%;
+    max-width: 30%;
+    margin: 10px;
+  }
+  
+  .book-card {
+    transition: transform 0.2s, background-color 0.2s;
+    background-color: #f8f9fa;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .book-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 70px rgb(255, 1, 1);
+  }
+  
+  .card-img-container {
+    height: 150px; /* Set the fixed height for the image container */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden; /* Ensure the image does not overflow */
+  }
+  
+  .card-img-top {
+    max-height: 100%; /* Ensure the image fits within its container */
+    max-width: 100%;
+    object-fit: contain; /* Preserve aspect ratio */
+  }
+  
+  .card-body {
+    padding: 10px;
+  }
+  
+  .card-title,
+  .card-subtitle,
+  .card-text {
+    margin-bottom: 0.5rem;
+  }
+  
+  .icon {
+    width: 30px; /* Adjust icon size */
+    height: 30px; /* Adjust icon size */
+    margin-right: 10px;
+  }
+  
